@@ -1,0 +1,84 @@
+{
+  "name": "DigitalPygmalion/badge-factor",
+  "type": "project",
+  "license": "MIT",
+  "description": "Boilerplate to kick-start a Badge Factor website, using Bedrock",
+  "homepage": "https://github.com/DigitalPygmalion/badge-factor-boilerplate",
+  "authors": [
+    {
+      "name": "ctrlweb",
+      "homepage": "https://ctrlweb.ca/",
+      "email": "dev@ctrlweb.ca",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "openbadge", "badge-factor", "badgeos", "bedrock", "wordpress", "stack", "composer", "wp"
+  ],
+  "config": {
+    "preferred-install": "dist"
+  },
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.7.2",
+    "oscarotero/env": "^1.0",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "DigitalPygmalion/badge-factor-gravityforms-add-on": "dev-master",
+    "DigitalPygmalion/badge-factor-showsubmission-addon": "dev-master",
+    "DigitalPygmalion/badge-factor": "dev-master",
+    "DigitalPygmalion/badge-factor-theme": "dev-master",
+    "wpackagist-plugin/advanced-custom-fields": "4.4.11",
+    "wpackagist-plugin/badgeos": "1.4.8.2",
+    "wpackagist-plugin/badgeos-community-add-on": "^1.2",
+    "wpackagist-plugin/badgeos-open-badges-issuer-add-on": "^1.1",
+    "wpackagist-plugin/buddypress": "2.8.1",
+    "wpackagist-plugin/buddypress-profile-shortcodes": "^1.1",
+    "wpackagist-plugin/buddypress-shortcodes": "^1.2",
+    "wpackagist-plugin/gravity-forms-pdf-extended": "^4.0",
+    "wpackagist-plugin/json-api": "^1.1"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.5.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/DigitalPygmalion/badge-factor-gravityforms-add-on.git",
+      "reference": "master"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/DigitalPygmalion/badge-factor-showsubmission-addon.git",
+      "reference": "master"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/DigitalPygmalion/badge-factor.git",
+      "reference": "master"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/DigitalPygmalion/badge-factor-theme.git",
+      "reference": "master"
+    }
+  ],
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
+    ]
+  }
+}
