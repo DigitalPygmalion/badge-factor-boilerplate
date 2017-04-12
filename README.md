@@ -23,15 +23,18 @@ Digital Pygmalion licenses Badge Factor to you under the terms of the [X11 Licen
 ## Installation
 
 1. Install [WP-CLI](http://wp-cli.org/)
-1. Clone the present repository.
-2. At the root of the project, do 
+2. Clone the present repository.
+3. Copy the file .env.example to .env, and edit its content to configure the database and WordPress.
+4. At the root of the project, do 
 ```bash
 $ composer install
+$ wp db create
+$ wp core install [necessary parameters]
 $ wp plugin activate --all
 $ wp theme activate badge-factor-theme
 ```
-3. Setup the required information in the Settings > Badge Factor menu.
-4. Visit the Badge Factor menu to add Badges.
+5. Setup the required information in the Settings > Badge Factor menu.
+6. Visit the Badge Factor menu to add Badges.
 
 
 ## Bugs & Feature Requests
