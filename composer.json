@@ -30,6 +30,7 @@
     "DigitalPygmalion/badge-factor": "dev-master",
     "DigitalPygmalion/badge-factor-certificate": "dev-master",
     "DigitalPygmalion/badge-factor-theme": "dev-master",
+    "danidou/wp2moodle--wordpress-": "dev-master",
     "wpackagist-plugin/advanced-custom-fields": "4.4.11",
     "wpackagist-plugin/badgeos": "1.4.8.2",
     "wpackagist-plugin/badgeos-community-add-on": "^1.2",
@@ -80,7 +81,12 @@
       "type": "vcs",
       "url": "https://github.com/DigitalPygmalion/badge-factor-theme.git",
       "reference": "master"
-    }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/danidou/wp2moodle--wordpress-.git",
+      "reference": "master"
+    },
   ],
   "scripts": {
     "test": [
