@@ -28,6 +28,7 @@
     "DigitalPygmalion/badge-factor-gravityforms-add-on": "dev-master",
     "DigitalPygmalion/badge-factor-showsubmission-addon": "dev-master",
     "DigitalPygmalion/badge-factor": "dev-master",
+    "DigitalPygmalion/badge-factor-certificate": "dev-master",
     "DigitalPygmalion/badge-factor-theme": "dev-master",
     "wpackagist-plugin/advanced-custom-fields": "4.4.11",
     "wpackagist-plugin/badgeos": "1.4.8.2",
@@ -54,6 +55,11 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/DigitalPygmalion/badge-factor-certificates.git",
+      "reference": "master"
     },
     {
       "type": "vcs",
