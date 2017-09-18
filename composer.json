@@ -86,7 +86,7 @@
       "type": "vcs",
       "url": "https://github.com/danidou/wp2moodle--wordpress-.git",
       "reference": "master"
-    },
+    }
   ],
   "scripts": {
     "test": [
