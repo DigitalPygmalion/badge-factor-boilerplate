@@ -74,6 +74,11 @@
     },
     {
       "type": "vcs",
+      "url": "https://github.com/DigitalPygmalion/badgeos.git",
+      "reference": "master"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/DigitalPygmalion/badge-factor.git",
       "reference": "master"
     },
