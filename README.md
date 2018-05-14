@@ -25,7 +25,7 @@ Digital Pygmalion licenses Badge Factor to you under the terms of the [X11 Licen
 1. Install [WP-CLI](http://wp-cli.org/)
 2. Clone the present repository.
 3. Copy the file .env.example to .env, and edit its content to configure the database and WordPress.
-4. Install [Gravity Forms](http://www.gravityforms.com/) (>= v1.9)
+4. Install [Gravity Forms](http://www.gravityforms.com/) (>= v2.3.0.4)
 5. At the root of the project, do 
 ```bash
 $ composer install
