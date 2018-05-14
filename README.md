@@ -11,7 +11,7 @@ Badge Factor is a "glue" plugin which brings together functionalities of BadgeOS
 
 ## Requirements
 
-* PHP >= 5.6
+* PHP >= 7.0
 * Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 * Gravity Forms - [Purchase](http://www.gravityforms.com/purchase-gravity-forms/)
 * Gravity Forms User Registration - [Purchase](http://www.gravityforms.com/add-ons/quiz/)
